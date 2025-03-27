@@ -15,6 +15,7 @@
             <li><a href="{{ url('/') }}" class="hover:text-green-400">Home</a></li>
             <li><a href="{{ url('/projects') }}" class="hover:text-green-400">Projects</a></li>
             <li><a href="{{ url('/resume') }}" class="hover:text-green-400">Resume</a></li>
+            <li><a href="{{ route('testimonials') }}" class="hover:text-green-400">Testimonials</a></li>
         </ul>
         <form action="{{ route('search') }}" method="GET" class="flex items-center bg-gray-700 rounded-lg px-3">
             <input type="text" name="query" placeholder="Search..." class="bg-transparent text-white p-2 outline-none w-32 md:w-48">
@@ -45,7 +46,7 @@
                         edit, mark as complete, and delete tasks. Each task should be stored in a database, 
                         allowing users to keep track of their daily tasks.
                     </p>
-                    <a href="#" class="text-teal-500">View Project</a>
+                    <a href="http://localhost/GitHub/To-do-List/" class="text-teal-500">View Project</a>
                 </div>
 
                 <!-- Project 2 -->
@@ -56,7 +57,7 @@
                         It should showcase your skills, projects, contact information, and links to your social media profiles. 
                         The design will follow a modern dark theme.
                     </p>
-                    <a href="#" class="text-teal-500">View Project</a>
+                    <a href="{{ url('/') }}" class="text-teal-500">View Project</a>
                 </div>
 
                 <!-- Project 3 -->
@@ -67,7 +68,7 @@
                         scheduled for matches (knockout and round-robin formats), and results recorded. 
                         The system should automatically update rankings based on results.
                     </p>
-                    <a href="#" class="text-teal-500">View Project</a>
+                    <a href="https://www.fifa.com/en/tournaments" class="text-teal-500">View Project</a>
                 </div>
 
                 <!-- Project 4 -->
@@ -78,7 +79,7 @@
                         It should allow users to browse products, add items to cart, checkout, and make payments using PayPal. 
                         The design will follow a modern, minimalistic theme.
                     </p>
-                    <a href="#" class="text-teal-500">View Project</a>
+                    <a href="https://freewebstore.com/" class="text-teal-500">View Project</a>
                 </div>
 
                 <!-- Project 5 -->
@@ -88,7 +89,7 @@
                     <p class="text-gray-400 mb-4">A real-time chat application built with React and Firebase. 
                         Users can create accounts, join rooms, send messages, and receive notifications when new messages are received.
                     </p>
-                    <a href="#" class="text-teal-500">View Project</a>
+                    <a href="https://chattusa.com/" class="text-teal-500">View Project</a>
                 </div>
 
                     <!-- Project 6 -->
@@ -99,7 +100,7 @@
                             Users can create accounts, write posts, comment on posts, and view posts by category. 
                             The design will follow a clean, minimalistic theme.
                         </p>
-                        <a href="#" class="text-teal-500">View Project</a>
+                        <a href="https://www.blogger.com/" class="text-teal-500">View Project</a>
                     </div>
 
                     <!-- Project 7 -->
@@ -110,7 +111,7 @@
                             Users can explore the game world, collect items, and complete objectives. 
                             The design will follow a modern, minimalistic theme.
                         </p>
-                        <a href="#" class="text-teal-500">View Project</a>
+                        <a href="https://www.crazygames.com/" class="text-teal-500">View Project</a>
                     </div>
 
                     <!-- Project 8 -->
@@ -120,7 +121,7 @@
                         <p class="text-gray-400 mb-4">A simple calculator built with JavaScript. 
                             Users can perform basic arithmetic operations (+, -, *, /) on two numbers.
                         </p>
-                        <a href="#" class="text-teal-500">View Project</a>
+                        <a href="http://localhost/GitHub/Calculator-Project/calculator.html" class="text-teal-500">View Project</a>
                     </div>
 
                     <!-- Project 9 -->
@@ -130,7 +131,7 @@
                         <p class="text-gray-400 mb-4">A weather app built with JavaScript that retrieves current weather data using the OpenWeatherMap API. 
                             Users can search for a city and view the current temperature, humidity, and weather description.
                         </p>
-                        <a href="#" class="text-teal-500">View Project</a>
+                        <a href="https://weather.com/" class="text-teal-500">View Project</a>
                     </div>
             </div>
         </div>

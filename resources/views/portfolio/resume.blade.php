@@ -15,6 +15,7 @@
             <li><a href="{{ url('/') }}" class="hover:text-green-400">Home</a></li>
             <li><a href="{{ url('/projects') }}" class="hover:text-green-400">Projects</a></li>
             <li><a href="{{ url('/resume') }}" class="hover:text-green-400">Resume</a></li>
+            <li><a href="{{ route('testimonials') }}" class="hover:text-green-400">Testimonials</a></li>
         </ul>
         <form action="{{ route('search') }}" method="GET" class="flex items-center bg-gray-700 rounded-lg px-3">
             <input type="text" name="query" placeholder="Search..." class="bg-transparent text-white p-2 outline-none w-32 md:w-48">

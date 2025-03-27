@@ -17,3 +17,7 @@ Route::get('/resume', function () {
 
 Route::get('/search', [SearchController::class, 'index']
 )->name('search');
+
+Route::get('/testimonials', function () {
+    return view('portfolio.testimonials');
+})->name('testimonials');
