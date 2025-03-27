@@ -31,7 +31,7 @@
     <div class="flex flex-col items-center  mt-10">
         <!-- Profile Image -->
         <div class="w-40 h-40 rounded-full border-4 border-green-400 overflow-hidden">
-            <img src="{{ asset('icons/project.jpg') }}" alt="Daniel Junior Foli" class="w-full h-full object-cover">
+            <img src="{{ asset('icons/profile.jpg') }}" alt="Daniel Junior Foli" class="w-full h-full object-cover">
         </div>
 
         <h2 class="text-3xl mt-6">Hello, I'm</h2>
