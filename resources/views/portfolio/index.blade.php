@@ -36,8 +36,9 @@
 
         <h2 class="text-3xl mt-6">Hello, I'm</h2>
         <h1 class="text-4xl text-green-400 font-bold">Daniel Junior Foli</h1>
-        <p class="mt-4 text-yellow-400">A Passionate Multidisciplinary Developer.
-            I specialize in Graphic Design, Frontend and Backend Development.</p>
+        <p class="mt-4 text-yellow-400">A Passionate Multidisciplinary Developer. 
+            I'm a self-taught developer with a passion for creating visually appealing designs and building modern web applications
+        </p>
         <button class="mt-6 bg-green-500 px-6 py-3 rounded text-black font-semibold">Let's Talk</button>
     </div>
 
