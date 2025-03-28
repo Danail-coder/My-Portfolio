@@ -62,17 +62,17 @@
 
                 <!-- Project 3 -->
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <img src="{{ asset('icons/football.png') }}" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded-lg">
-                    <h3 class="text-xl font-bold mb-2">Football Tournament Management System (PHP & MySQL)</h3>
-                    <p class="text-gray-400 mb-4">A web application where teams can be created, 
-                        scheduled for matches (knockout and round-robin formats), and results recorded. 
-                        The system should automatically update rankings based on results.
+                    <img src="{{ asset('icons/calculator.png') }}" alt="Project 8" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Simple Calculator (JavaScript)</h3>
+                    <p class="text-gray-400 mb-4">A simple calculator built with JavaScript. 
+                        Users can perform basic arithmetic operations (+, -, *, /) on two numbers.
                     </p>
-                    <a href="https://www.fifa.com/en/tournaments" class="text-teal-500">View Project</a>
+                    <a href="http://localhost/GitHub/Calculator-Project/calculator.html" class="text-teal-500">View Project</a>
                 </div>
+                
 
                 <!-- Project 4 -->
-                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
                     <img src="{{ asset('icons/store.png') }}" alt="Project 4" class="w-full h-48 object-cover mb-4 rounded-lg">
                     <h3 class="text-xl font-bold mb-2">Online Store (Laravel & MySQL)</h3>
                     <p class="text-gray-400 mb-4">An e-commerce website built with Laravel and styled using Tailwind CSS via CDN. 
@@ -115,14 +115,16 @@
                     </div>
 
                     <!-- Project 8 -->
-                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <img src="{{ asset('icons/calculator.png') }}" alt="Project 8" class="w-full h-48 object-cover mb-4 rounded-lg">
-                        <h3 class="text-xl font-bold mb-2">Simple Calculator (JavaScript)</h3>
-                        <p class="text-gray-400 mb-4">A simple calculator built with JavaScript. 
-                            Users can perform basic arithmetic operations (+, -, *, /) on two numbers.
-                        </p>
-                        <a href="http://localhost/GitHub/Calculator-Project/calculator.html" class="text-teal-500">View Project</a>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <img src="{{ asset('icons/football.png') }}" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-xl font-bold mb-2">Football Tournament Management System (PHP & MySQL)</h3>
+                    <p class="text-gray-400 mb-4">A web application where teams can be created, 
+                        scheduled for matches (knockout and round-robin formats), and results recorded. 
+                        The system should automatically update rankings based on results.
+                    </p>
+                    <a href="https://www.fifa.com/en/tournaments" class="text-teal-500">View Project</a>
                     </div>
+                    
 
                     <!-- Project 9 -->
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
@@ -143,3 +145,4 @@
 
 
 
+                
